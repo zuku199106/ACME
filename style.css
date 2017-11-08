@@ -1,0 +1,119 @@
+body, h1, h2, h3, h4, ul, li {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #35434C;
+    color: #ffffff;
+    min-height: 90px;
+    border-bottom: 3px solid #f83b1d;
+    box-sizing: border-box;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+header .wrapper {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    width: 25%;
+}
+
+.red-text {
+    color: #f83b1d; 
+}
+
+.banner {
+    background-image: url(img/background.jpg);
+    min-height: 350px;
+    background-size: cover;
+    background-position: 0 -300px
+}
+
+.banner .wrapper {
+    text-align: center;
+    height: 350px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.banner .wrapper h2{
+    font-size: 40px;
+}
+
+.newsletter {
+    background-color: #35434C;
+    color: #ffffff;
+    min-height: 90px;
+}
+
+.newsletter .wrapper {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    height: 25px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    font-size: 12px;
+    width: 200px;
+}
+
+.newsletter button[type="submit"]{
+    font-size: 12px;
+    height: 25px;
+    background-color: #f83b1d;
+    border: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 5px 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f83b1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    color: #ffffff;
+}
